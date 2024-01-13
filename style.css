@@ -1,0 +1,37 @@
+*{
+    padding: 0;
+    margin: 0;
+    color: yellow
+}
+
+body{
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #202020;
+}
+
+.display{
+    background-color: wheat;
+    height: 300px;
+    width: 500px;
+    margin: 30px;
+    border-radius: 5%;
+}
+
+h3{
+    margin: 5px;
+}
+
+.options{
+    display: flex;
+    gap: 40px;
+    margin-top: 3%; 
+}
+
+button{
+    padding: 20px;
+    border-radius: 20%;
+    color: red
+}
